@@ -1,0 +1,16 @@
+In this exercise, you'll use generative AI models to support two common scenarios:
+
+Speech synthesis (text-to-speech) - generating speech output.
+Speech recognition (speech-to-text) - transcribing speech input.
+
+
+How to run this 
+Python Command : 
+python -m venv labenv 
+.\labenv\Scripts\Activate.ps1 
+pip install -r requirements.txt
+
+How to run it 
+cd Labfiles/03-gen-ai-speech/Python/generate-speec
+az login 
+python generate-speech.py
