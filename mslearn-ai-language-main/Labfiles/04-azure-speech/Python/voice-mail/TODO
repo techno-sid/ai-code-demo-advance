@@ -1,0 +1,16 @@
+Recognize and synthesize speech
+Azure Speech in Foundry Tools is a service that provides speech-related functionality, including:
+
+A speech-to-text API that enables you to implement speech recognition (converting audible spoken words into text).
+A text-to-speech API that enables you to implement speech synthesis (converting text into audible speech).
+
+How to run 
+Python Command : 
+python -m venv labenv 
+.\labenv\Scripts\Activate.ps1 
+pip install -r requirements.txt
+
+How to run it 
+cd /Labfiles/04-azure-speech/Python/voice-mail 
+az login 
+python voice-mail.py
